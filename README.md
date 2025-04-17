@@ -1,5 +1,3 @@
-Here's an improved English README based on your original content, with enhanced clarity and formatting. The functionality and installation steps remain unchanged, and I've included the documentation link as requested.
-
 ---
 
 # Model Context Protocol - Customer Service (MCP-CS)
