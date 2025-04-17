@@ -1,0 +1,30 @@
+{
+    "name": "mcp-cs",
+    "version": "1.0.0",
+    "description": "Model Context Protocol - Customer Service",
+    "main": "index.ts",
+    "repository": "git@github.com:Timothyvanderveen/mcp-cs.git",
+    "author": "Timothy van der Veen <timothyvanderveen.dev@gmail.com>",
+    "license": "MIT",
+    "type": "module",
+    "scripts": {
+        "build": "tsc && tsc-alias && chmod 755 build/index.js",
+        "inspect": "npx @modelcontextprotocol/inspector node build/index.js"
+    },
+    "dependencies": {
+        "@modelcontextprotocol/sdk": "^1.9.0",
+        "@types/node": "^22.14.1"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.24.0",
+        "@stylistic/eslint-plugin": "^4.2.0",
+        "eslint": "^9.24.0",
+        "tsc-alias": "^1.8.15",
+        "typescript": "^5.8.3",
+        "typescript-eslint": "^8.29.1"
+    },
+    "engines": {
+        "yarn": ">= 1.*",
+        "node": ">= 18.*"
+    }
+}
