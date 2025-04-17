@@ -1,5 +1,3 @@
----
-
 # Model Context Protocol - Customer Service (MCP-CS)
 
 ## Overview
